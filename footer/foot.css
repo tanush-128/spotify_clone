@@ -1,0 +1,122 @@
+.footer{
+    background-color:black;
+    color:rgb(232, 219, 219);
+    display:flex; 
+    justify-content: space-around;
+    height:13vh;
+    top: 0;
+    width:100%;
+    position: sticky;
+
+}
+.timer{
+    text-align: center;
+    flex-direction: row;
+    width:100%;    
+    
+}
+#ranger{
+    width: 73%;
+}
+
+.img{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: 0 20px;
+    
+}
+.leftimg{
+    margin: auto .3vh;
+ 
+    
+    
+
+}
+.img svg{
+    width: 3vh;
+    fill: rgb(219, 228, 236);
+    text-align: center;
+    margin: 0.5vh 3vh;
+    opacity: 90%;
+    cursor: pointer;
+}
+
+.child1{
+    text-align: center;
+    
+    margin:auto auto;
+}
+.right svg{
+    margin:.3vh;
+    width:3vh;
+    fill: aliceblue;
+    opacity: 70%;
+    height:2vh;
+    cursor: pointer;
+    
+}
+
+.right
+{
+    
+    text-align: center;
+    margin-top: 4vh;
+    
+}
+#ranger2{
+    width:10vh;
+    height: 2vh;
+}
+.child1{
+    width:40%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+#left{
+    height:5vh;
+    width:auto;
+}
+#icon6{
+    border: 1px solid white;
+
+}
+#icon3{
+    border: .3vh solid rgb(246, 238, 238);
+    border-radius: 70%;
+    fill:white;
+    width: 3vh;
+}
+.right svg :hover{
+    transform: scale(1.2);
+    opacity:100%;
+    color: yellow;
+
+}
+.img svg :hover{
+    transform: scale(1.2);
+    opacity:100%;
+
+
+}
+#left{
+    height: 8vh;
+}
+#icon1{
+    width: 2.5vh;
+    fill: rgb(235, 235, 52);
+    opacity: 60%;
+}
+#icon5{
+    width:2.5vh;
+    fill: rgb(235, 235, 52);
+    opacity:90%;
+}
+#icon2{
+    opacity:80%;
+}
+
+
+
