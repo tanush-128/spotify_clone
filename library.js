@@ -20,7 +20,7 @@ library_items_data = [
     desc: "Artist",
     img_url: "https://i.scdn.co/image/ab6761610000f178c81f480a6da366f051cf74cc",
   },
-  { title: "My Playlist #5", desc: "Playlist . Tanush Agarwal", img_url: "" },
+  // { title: "My Playlist #5", desc: "Playlist . Tanush Agarwal", img_url: "" },
   {
     title: "homework vibes",
     desc: "Playlist . Spotify",
@@ -53,7 +53,7 @@ library_items_data = [
     img_url:
       "https://mosaic.scdn.co/60/ab67616d00001e028a3f0a3ca7929dea23cd274cab67616d00001e0295d5d85909d5deb5cee9f311ab67616d00001e02ba5db46f4b838ef6027e6f96ab67616d00001e02f2d671c22b70e01b78a618a8",
   },
-  { title: "liked", desc: "Playlist . Tanush Agarwal", img_url: "" },
+  // { title: "liked", desc: "Playlist . Tanush Agarwal", img_url: "" },
   {
     title: "Intense",
     desc: "Artist",
@@ -85,3 +85,21 @@ library_items_data = [
     img_url: "https://i.scdn.co/image/ab6761610000f1788ae7f2aaa9817a704a87ea36",
   },
 ];
+
+var library_list = document.getElementsByClassName("library-list")[0];
+for (var i = 0; i < library_items_data.length; i++) {
+  var div = document.createElement("div");
+  div.className = "library-items";
+  div.innerHTML = `<div class="library-items-img">
+  <img src="${library_items_data[i].img_url}" alt="" />
+</div>
+<div class="library-items-details">
+  <h4>${library_items_data[i].title}</h4>
+  <h5>${library_items_data[i].desc}</h5>
+</div>`;
+  library_list.appendChild(div);
+}
+
+// element added
+
+
