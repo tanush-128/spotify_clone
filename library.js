@@ -100,5 +100,6 @@ for (var i = 0; i < library_items_data.length; i++) {
   library_list.appendChild(div);
 }
 
+// element added
 
 
