@@ -3,7 +3,7 @@
   --secondary: #21125f;
 }
 body {
-  height: 100svh;
+  height: calc(100svh - 24px);
   background-color: black;
   display: grid;
   grid-template-columns: 420px 1fr;

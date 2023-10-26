@@ -3,6 +3,7 @@
     display: flex;
     flex-direction: column;
     position: relative;
+    border-radius: 0;
 }
 #header-greeting{
 
@@ -66,7 +67,7 @@ position: relative;
 padding: 16px 8px ;
 border-radius: 12px 12px 0 0;
 
-background-color: #201258;
+background-color: #20115E;
 
 z-index: 2;
 
