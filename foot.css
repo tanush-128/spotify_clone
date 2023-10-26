@@ -1,0 +1,188 @@
+.footer {
+  background-color: black;
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  top: 0;
+  width: 100%;
+  position: sticky;
+}
+
+.timer {
+ width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 8px;
+}
+
+.current-song{
+flex: 1;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+gap: 16px;
+padding: 8px;
+}
+.current-song img{
+  border-radius: 4px;
+} 
+.current-song .song-name{
+  font-weight: 600;
+}
+.current-song .song-singers{
+  font-weight: 300;
+  font-size: 12px;
+}
+.like-button{
+  width: 20px;
+  height: 20px;
+}
+.like-button svg path{
+  fill: white;
+  opacity: 70%;
+}
+.like-button svg:hover path{
+  fill: white;
+  opacity: 100%;
+}
+
+.music-controls{
+  flex: 1;
+}
+.right{
+  flex: 1;
+}
+#ranger {
+  /* width: 73%; */
+}
+
+.music-control-buttons {
+  display: flex;
+  /* padding: 0 20px; */
+  justify-content: space-around;
+  align-items: center;
+  gap: 32px;
+  height: 32px;
+  margin-bottom: 8px;
+}
+
+.music-control-buttons svg {
+  width: 20px;
+
+  text-align: center;
+
+  cursor: pointer;
+}
+
+.music-control-buttons svg path {
+  fill: white;
+  opacity: 70%;
+}
+
+.music-controls {
+  text-align: center;
+
+  margin: auto auto;
+}
+
+.right svg {
+  margin: 0.3vh;
+  width: 3vh;
+  fill: white;
+
+  height: 2vh;
+  cursor: pointer;
+}
+
+.right {
+  text-align: center;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  /* margin-top: 4vh; */
+}
+
+#ranger2 {
+  width: 100px
+  /* height: 2vh; */
+}
+
+.music-controls {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#left {
+  height: 5vh;
+  width: auto;
+}
+.right svg path{
+  fill: white;
+  opacity: 70%;
+}
+
+.right svg:hover path {
+  /* transform: scale(1.2); */
+  opacity: 100%;
+
+}
+
+.music-control-buttons svg path {
+  fill: white;
+}
+
+.music-control-button:hover svg path {
+  /* transform: scale(1.2); */
+  opacity: 100%;
+}
+
+#left {
+  height: 8vh;
+}
+
+#play-pause {
+  background-color: white;
+  opacity: 100%;
+  height: 32px;
+  width: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+#play-pause svg {
+  padding: 8px;  
+  cursor: pointer;
+}
+
+#play-pause svg path {
+  fill: black;
+  opacity: 100%;
+}
+
+input[type=range] {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 4px;
+    background-color: white;
+    border-radius: 5px;
+    color: #7F7F7F;
+  }
+
+  input[type=range]::-webkit-slider-thumb{
+    display: none;
+  }
+  input[type=range]:hover::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    display: block;
+    width: 12px;
+    height: 12px;
+    background-color: #1ED760;
+    border-radius: 50%;
+  }

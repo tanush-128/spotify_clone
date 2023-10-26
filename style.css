@@ -12,6 +12,7 @@ body {
   position: relative;
   color: white;
   font-family: 'montserrat';
+  margin-top: 24px;
 
 
 }
@@ -74,7 +75,20 @@ body {
   border: none;
   font-size: 18px;
   color: white;
+  display: flex;
+  align-items: center;
+  /* gap: 16px; */
+  padding: 0 10px;
 }
+.sidebar-btn svg{
+  width: 32px;
+  height: 32px;
+  padding: 16px;
+}
+.sidebar-btn svg path{
+  fill: white;
+}
+
 
 #sidebar img {
   
@@ -227,15 +241,15 @@ h4 {
 #main-scroll{
   overflow-y: scroll;
   overflow-x: hidden;
-  margin-top: 48px;
-  height: calc(100svh - 168px);
-  border-radius: 12px;
+ 
+  height: calc(100svh - 200px);
+  /* border-radius: 12px; */
 
 }
 #header {
   border-radius: 12px;
   width: 100%;
-  height: 320px;
+ 
   background: linear-gradient(var(--secondary), var(--primary));
 }
 

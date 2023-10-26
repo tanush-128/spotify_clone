@@ -93,7 +93,7 @@ for (var i = 0; i < library_items_data.length; i++) {
   div.innerHTML = `<div class="library-items-img">
   <img src="${library_items_data[i].img_url}" alt="" />
 </div>
-<div class="library-items-details">
+<div class="library-items-details hide-on-collapse">
   <h4>${library_items_data[i].title}</h4>
   <h5>${library_items_data[i].desc}</h5>
 </div>`;
